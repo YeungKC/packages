@@ -18,8 +18,6 @@ flutter:
         default_package: local_auth_foundation
       macos:
         default_package: local_auth_foundation
-      windows:
-        default_package: local_auth_windows
 
 dependencies:
   flutter:
@@ -31,7 +29,6 @@ dependencies:
       ref: 7ba9b32b9abdb4f5461c16354986418e83d81095
       path: packages/local_auth/local_auth_foundation
   local_auth_platform_interface: ^1.0.1
-  local_auth_windows: ^1.0.0
 
 dev_dependencies:
   flutter_test:
